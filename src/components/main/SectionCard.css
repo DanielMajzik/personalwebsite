@@ -1,0 +1,23 @@
+.section-card {
+    background-color: rgba(220, 220, 220, .75);
+    background-image: none;
+    padding: 1rem;
+    margin: 1rem;
+    box-shadow: 0 1px 0 rgba(220, 220, 220, .75);
+    border-radius: 1rem;
+}
+
+.section-card h1 {
+    background: transparent none;
+    font-size: 3rem;
+    font-family: 'Neucha', cursive, sans-serif;
+    color: #923E11;
+}
+
+.section-card p {
+    background: transparent none;
+    font-size: 1.5rem;
+    text-align: justify;
+    font-family: 'Neucha', cursive, sans-serif;
+    color: #0A111B;
+}

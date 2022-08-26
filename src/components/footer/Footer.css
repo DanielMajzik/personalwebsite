@@ -1,0 +1,62 @@
+#footer {
+    background-color: #111E2F;
+    width: 100%;
+    padding: 2rem 10rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+
+}
+
+.foot {
+    display: flex;
+    flex-flow: column;
+    background: inherit;
+}
+
+.foot p {
+    background-image: none;
+    color: #6C9575;
+}
+
+.foot #address {
+    background-image: none;
+    background-color: transparent;
+    align-content: center;
+}
+
+#address {
+    background: inherit;
+    text-decoration: none;
+    align-content: center;
+    color: #698A93;
+    font-size: 1rem;
+}
+
+#copyright {
+    background: inherit;
+    flex: 4;
+}
+
+#copyright p {
+    background: inherit;
+    text-align: right;
+    color: #6C9575;
+}
+
+#contact {
+    flex: 3;
+}
+
+#contact p, #contact a {
+    text-align: center;
+}
+
+#additional {
+    flex: 4;
+}
+
+#additional p {
+    text-align: left;
+}

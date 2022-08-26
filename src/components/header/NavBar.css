@@ -1,0 +1,20 @@
+#navbar {
+    display: flex;
+    flex-flow: row;
+    padding: 1rem;
+    margin: 0 1rem 0 1rem;
+    background: transparent none;
+}
+
+#navbar > a {
+    background: inherit;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #50B6AB;
+}
+
+#navbar a:hover {
+    background: inherit;
+    color: #DB5710;
+}

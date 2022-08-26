@@ -1,0 +1,25 @@
+#welcomeBox {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+h1.welcomeText {
+    color: #985E10;
+    font-size: 5rem;
+    font-family: 'Permanent Marker', cursive, cursive, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding-bottom: 10rem;
+}
+
+h2.welcomeText {
+    color: #DB5710;
+    font-size: 3rem;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5rem;
+}

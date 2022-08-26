@@ -1,0 +1,37 @@
+#header {
+    width: 100vw;
+    display: flex;
+    flex-flow: row;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+    overflow: visible;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, .75);
+    z-index: 14;
+}
+
+#header * {
+    padding: 0 2rem;
+    background: transparent none;
+}
+
+#logo-and-text {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    padding: .25rem;
+    height: 2rem;
+}
+
+#author-name {
+    color: #50B6AB;
+    font-size: 1.25rem;
+    user-select: none;
+}
